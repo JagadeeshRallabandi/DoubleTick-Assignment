@@ -1,7 +1,7 @@
 # DoubleTick Frontend Assignment – Customers List
 
-**Author:** RALLABANDI JAGADEESH 
-**Email:** rjagadeeshnit@gmail.com
+**Author:** RALLABANDI JAGADEESH  
+**Email:** rjagadeeshnit@gmail.com  
 **College:** NIT Andhra Pradesh
 
 ---
@@ -26,44 +26,44 @@ This is a **React-based frontend assignment** for DoubleTick. The goal is to imp
 - Uses **virtualized rendering** (renders only visible rows + buffer) to ensure smooth performance.
 
 **Screenshot: Virtualized Table with 1M Rows**  
-![Virtualized Table](screenshots\Virtualized.png)
+![Virtualized Table](screenshots/Virtualized.png)
 
 ### 2. Search
 - Debounced input search (250ms delay) for name, email, or phone.
 - Offloaded search to a **Web Worker** to prevent UI blocking.
 
 **Screenshot: Search Customers**  
-![Search Feature](screenshots\search.png)
+![Search Feature](screenshots/search.png)
 
 ### 3. Sorting
 - Click on table headers to sort by **Customer, Score, Email, Last message sent at, Added by**.
 - Sorting is **asc/desc toggle**.
 - Offloaded sorting to Web Worker for performance.
+
 **Screenshot: Sorting Customer**  
-![Sort Feature](screenshots\Customersort.png)
+![Sort Feature](screenshots/Customersort.png)
 
 **Screenshot: Sorting Score**  
-![Sort Feature](screenshots\scoresort.png)
+![Sort Feature](screenshots/scoresort.png)
 
-**Screenshot: Sorting Email**
-![Sort Feature](screenshots\Emailsort.png)
+**Screenshot: Sorting Email**  
+![Sort Feature](screenshots/Emailsort.png)
 
-**Screenshot: Sorting Last message sent at**
-![Sort Feature](screenshots\Lastmessagesort.png)
-
+**Screenshot: Sorting Last message sent at**  
+![Sort Feature](screenshots/Lastmessagesort.png)
 
 ### 4. Filters
 - Dummy dropdown filters (non-functional, UI only) for demonstration purposes.
 
 **Screenshot: Filters Dropdown**  
-![Filters Dropdown](screenshots\Filter.png)
+![Filters Dropdown](screenshots/Filter.png)
 
 ### 5. Sticky Header & Hover Effects
 - Table header remains **sticky** while scrolling.
 - Rows have hover effect for better readability.
 
 **Screenshot: Sticky Header & Hover**  
-![Sticky Header](screenshots\Sticky.png)
+![Sticky Header](screenshots/Sticky.png)
 
 ---
 
@@ -79,6 +79,8 @@ This is a **React-based frontend assignment** for DoubleTick. The goal is to imp
 ---
 
 ## Project Structure
+
+
 
 ├── index.html # HTML entry point
 ├── src
