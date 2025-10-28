@@ -116,3 +116,30 @@ This is a **React-based frontend assignment** for DoubleTick. The goal is to imp
    - Filtered or sorted indices are passed to visible rows calculation.
 
 ---
+## Usage
+
+1. Clone the repository:  
+git clone <repository-url>
+cd <project-folder>
+
+2. Install dependencies:
+npm install
+
+3. Start development server:
+npm run dev
+
+4. Open in browser
+http://localhost:5173
+
+5. Scroll, search, and sort customers. Dummy filters dropdown works for UI demonstration.
+
+## Performance Notes
+Supports 1,000,000 records smoothly using virtualization + Web Worker.
+
+Maximum of ~200,000 results considered in search to avoid worker overload.
+
+Smooth scroll and sticky header remain responsive.
+
+## Author
+Rallabandi Jagadeesh
+Email: rjagadeeshnit@gmail.com

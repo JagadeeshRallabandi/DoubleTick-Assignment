@@ -15,12 +15,15 @@ export default function App() {
       <header className="topbar">
         <div className="topbar-inner">
           {/* Company / Assignment logo */}
-          <img src="/Doubletick Logo.png" alt="DoubleTick" className="logo" />
+          <img src="/Doubletick Logo.png" alt="DoubleTick" className="logo"  style={{ width: '180px', height: 'auto' }}  />
           
           {/* Assignment title / details */}
           <div className="title">
-            DoubleTick Assignment - rjagadeeshnit@gmail.com
-            - RALLABANDI JAGADEESH - NIT Andhra Pradesh (Please go through README.md file) 
+            DoubleTick Assignment - 
+            <a href="mailto:rjagadeeshnit@gmail.com">rjagadeeshnit@gmail.com</a> - 
+            <a href="https://jagadeeshrportfolio.vercel.app/" target="_blank" rel="noopener noreferrer">RALLABANDI JAGADEESH</a> - 
+            NIT Andhra Pradesh 
+            ( Please go through <a href="https://github.com/JagadeeshRallabandi/DoubleTick-Assignment" target="_blank" rel="noopener noreferrer">README.md</a>)
           </div>
         </div>
       </header>
