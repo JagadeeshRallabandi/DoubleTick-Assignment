@@ -1,9 +1,9 @@
 # DoubleTick Frontend Assignment – Customers List
 
+**Project Live Link:** https://jagasdoubletick-assignment-live.vercel.app/
 **Author:** RALLABANDI JAGADEESH  
 **Email:** rjagadeeshnit@gmail.com  
 **College:** NIT Andhra Pradesh
-
 ---
 
 ## Project Overview
